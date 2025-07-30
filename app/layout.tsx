@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nuestros Momentos Especiales - Feliz Cumpleaños",
+  title: "Feliz Cumpleaños, mi amor",
   description: "Una galería especial de recuerdos para celebrar tu día",
 }
 

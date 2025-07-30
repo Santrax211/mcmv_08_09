@@ -8,66 +8,123 @@ import { Card } from "@/components/ui/card"
 import { useTheme } from "next-themes"
 import Image from "next/image"
 
-// Datos de ejemplo - reemplaza con tus fotos y mensajes reales
 const memories = [
   {
     id: 1,
-    image: "/images/recuerdos/2025-07-21.jpeg",
+    image: "/images/recuerdos/2025-05-17.jpeg",
     message:
-      "Este fue nuestro primer selfie juntos. Desde ese momento supe que eras especial. Tu sonrisa ilumina mis días. ❤️",
-    date: new Date("2025-07-21"),
-    location: "Parque Central",
+      "Recuerdo que este día tu viniste a Villa para hacer hora, estuvimos hablando y contándonos muchas cosas. Tomando el Lit y habíamos calentado el chaufa que había traído xd.",
+    date: new Date("2025-05-18"),
+    location: "VES",
   },
   {
     id: 2,
-    image: "/images/recuerdos/2025-07-21.jpeg",
+    image: "/images/recuerdos/2025-05-17 (2).jpeg",
     message:
-      "Nuestra primera cena juntos. Hablamos por horas y el tiempo se detuvo. Cada momento contigo es mágico. ✨",
-    date: new Date("2024-02-14"),
-    location: "Restaurante Favorito",
+      "Después de hablar y chismosear, regresamos en tren. La neblina estaba terrible ese día.",
+    date: new Date("2025-05-18"),
+    location: "VES",
   },
   {
     id: 3,
-    image: "/images/recuerdos/2025-07-21.jpeg",
+    image: "/images/recuerdos/2025-05-27.jpeg",
     message:
-      "Viendo el atardecer juntos en la playa. Tus ojos brillaban más que las estrellas. Eres mi sol y mi luna. 🌅",
-    date: new Date("2024-03-20"),
-    location: "Playa del Sol",
+      "Este fue la primera salida que tuvimos al cine con Estefania. Me acuerdo que te asustó las muertes de la película Destino Final: Lazos de Sangre. Me encantó estar a tu lado y tomarte la mano ❤️",
+    date: new Date("2025-05-28"),
+    location: "Mall Aventura SJL",
   },
   {
     id: 4,
-    image: "/images/recuerdos/2025-07-21.jpeg",
-    message: "Nuestras tardes de café se volvieron mi adicción favorita. Tu risa es la melodía más hermosa. ☕",
-    date: new Date("2024-04-10"),
-    location: "Café Luna",
+    image: "/images/recuerdos/2025-06-20.jpeg",
+    message:
+      "Me acuerdo que ese día estaba lloviendo fuerte, y entramos a probar la nueva cafetería. La comida no estuvo mala, pero con tu compañía fue lo mejor ✨",
+    date: new Date("2025-06-21"),
+    location: "Cafetería nueva en Villa El Salvador",
   },
   {
     id: 5,
-    image: "/images/recuerdos/2025-07-21.jpeg",
-    message: "Picnic en el parque. Compartimos sueños y risas bajo el cielo azul. Contigo todo es perfecto. 🌸",
-    date: new Date("2024-05-05"),
-    location: "Parque de los Sueños",
+    image: "/images/recuerdos/2025-06-24.jpeg",
+    message:
+      "Recuerdo que este día fui con Estefania a verte, y me sorprendió que habías tomado algo de vino con four loko",
+    date: new Date("2025-06-25"),
+    location: "San Juan de Lurigancho",
   },
   {
     id: 6,
-    image: "/images/recuerdos/2025-07-21.jpeg",
-    message: "Noche de películas en casa. Abrazados en el sofá, el mundo exterior desapareció. Eres mi hogar. 🏠",
-    date: new Date("2024-06-18"),
-    location: "Casa",
+    image: "/images/recuerdos/2025-06-24(2).jpeg",
+    message: "Este día te tomé varias fotos y hasta videos que tenemos en nuestro grupo de WhatsApp 🌟",
+    date: new Date("2025-06-25"),
+    location: "San Juan de Lurigancho",
   },
   {
     id: 7,
-    image: "/images/recuerdos/2025-07-21.jpeg",
-    message: "Nuestra aventura en la montaña. Conquistamos la cima juntos, como conquistaste mi corazón. 🏔️",
-    date: new Date("2024-07-12"),
-    location: "Montaña Esperanza",
+    image: "/images/recuerdos/2025-06-24(3).jpeg",
+    message: "Me acuerdo que cuando llegué me diste un abrazo y ahi sentí el olor a vino, te dije sopla y si era lo que pensé. Te vi feliz y ese abrazo me hizo sentir especial.",
+    date: new Date("2025-06-25"),
+    location: "San Juan de Lurigancho",
   },
   {
     id: 8,
-    image: "/images/recuerdos/2025-07-21.jpeg",
-    message: "Tu cumpleaños anterior. Ver tu felicidad es mi mayor regalo. Hoy celebramos otro año de tu luz. 🎂",
-    date: new Date("2023-09-08"),
-    location: "Celebración",
+    image: "/images/recuerdos/2025-06-25.jpeg",
+    message: "Me acuerdo que ese día estabas buscando un casco blanco para poder ir, y la verdad me gustó como te esfuerzas por conseguir lo que quieres. Ese día fue especial porque te vi feliz con tus amigas.",
+    date: new Date("2025-06-26"),
+    location: "Ingeniería Ambiental",
+  },
+  {
+    id: 9,
+    image: "/images/recuerdos/2025-06-26.jpeg",
+    message: "Este día fue uno de los primeros días que comenzamos a salir juntos y como no tomamos tren, tocó irnos en taxi. Tu compañía me hizo sentir cómodo y feliz, y me acuerdo que tenías sueño y te dormías en mi hombro.",
+    date: new Date("2025-06-27"),
+    location: "Regreso a casa",
+  },
+  {
+    id: 10,
+    image: "/images/recuerdos/2025-06-26 (2).jpeg",
+    message: "Ver esa sonrisa en tu rostro es lo más hermoso que puedo ver. Te amo mi amor",
+    date: new Date("2025-06-27"),
+    location: "Regreso a casa",
+  },
+  {
+    id: 11,
+    image: "/images/recuerdos/2025-06-26 (3).jpeg",
+    message: "Te quedaste dormida en mi regazo, y amé ese momento. Me encanta verte dormir, y me encanta que estés a mi lado. Tomar tu mano me hizo sentir seguro.",
+    date: new Date("2025-06-27"),
+    location: "Regreso a casa",
+  },
+  {
+    id: 12,
+    image: "/images/recuerdos/2025-06-27.jpeg",
+    message: "Este día te recogí desde Bayóvar para irnos juntos a la universidad. Me acuerdo que compraste Ole Ole y lo comiste conmigo xd mientras jugaba clash.",
+    date: new Date("2025-06-28"),
+    location: "SJL -VES",
+  },
+  {
+    id: 13,
+    image: "/images/recuerdos/2025-06-27 (2).jpeg",
+    message: "Me dijiste que ya te querías ir de esa clase, recuerdo que estaba en el gym en ese momento. Me animó ver tu foto, entrené con más energía xd",
+    date: new Date("2025-06-28"),
+    location: "SJL -VES",
+  },
+  {
+    id: 14,
+    image: "/images/recuerdos/2025-06-27 (3).jpeg",
+    message: "Me encanta que estes a mi lado, y tomarnos fotos es algo que me gusta hacer para tener recuerdos de esos momentos que paso contigo.",
+    date: new Date("2025-06-28"),
+    location: "SJL -VES",
+  },
+  {
+    id: 15,
+    image: "/images/recuerdos/2025-06-28.jpeg",
+    message: "",
+    date: new Date("2025-06-29"),
+    location: "Parque de El Agustino",
+  },
+  {
+    id: 16,
+    image: "/images/recuerdos/2025-06-28 (2).jpeg",
+    message: "",
+    date: new Date("2025-06-29"),
+    location: "Parque de El Agustino",
   },
 ]
 
@@ -185,10 +242,10 @@ export default function BirthdayGallery() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
             <div className="text-center lg:text-left">
               <h1 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-                Nuestros Momentos Especiales
+                Feliz Cumpleaños, mi amor 🎉
               </h1>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Una colección de recuerdos para celebrar tu día especial ✨
+                Una colección de recuerdos para celebrar tu día especial. Espero sea de tu agrado✨
               </p>
             </div>
 
@@ -202,7 +259,7 @@ export default function BirthdayGallery() {
                   <SelectContent>
                     <SelectItem value="all">Todos</SelectItem>
                     {availableYears.map((year) => (
-                      <SelectItem key={year} value={year.toString()}>
+                      <SelectItem key={year } value={year.toString()}>
                         {year}
                       </SelectItem>
                     ))}
