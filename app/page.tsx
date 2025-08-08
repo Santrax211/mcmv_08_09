@@ -455,6 +455,34 @@ const memories = [
     date: new Date("2025-07-30"),
     location: "",
   },
+  {
+    id: 64,
+    image: "/images/recuerdos/2025-07-31.jpeg",
+    message: "",
+    date: new Date("2025-08-01"),
+    location: "",
+  },
+  {
+    id: 65,
+    image: "/images/recuerdos/2025-07-31(2).jpeg",
+    message: "",
+    date: new Date("2025-08-01"),
+    location: "",
+  },
+  {
+    id: 66,
+    image: "/images/recuerdos/2025-08-01.jpeg",
+    message: "",
+    date: new Date("2025-08-02"),
+    location: "",
+  },
+  {
+    id: 67,
+    image: "/images/recuerdos/2025-08-01(2).jpeg",
+    message: "",
+    date: new Date("2025-08-02"),
+    location: "",
+  },
 ]
 
 interface PhotoCardProps {
