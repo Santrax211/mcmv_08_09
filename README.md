@@ -121,10 +121,10 @@ Edita las variables CSS en `app/globals.css` o modifica `tailwind.config.ts` par
 ![Modo Claro](https://drive.google.com/uc?export=view&id=1v-tFZeuwFUpjef3eCcQ-NDNz_L39Cr80)
 
 ### Modo Oscuro
-![Modo Oscuro](https://via.placeholder.com/600x400/2D1B69/FFFFFF?text=Modo+Oscuro)
+![Modo Oscuro](https://drive.google.com/uc?export=view&id=1zv0rDay6f1SP7S1VQ1nfZN8YZ3TGLeQP)
 
 ### Efecto Flip
-![Efecto Flip](https://via.placeholder.com/600x400/FF69B4/FFFFFF?text=Efecto+Flip+3D)
+![Efecto Flip](https://drive.google.com/uc?export=view&id=1pWs3zFA88Qi1XVaPcy0IbHoUJFtRHwV-)
 
 ## 🌐 Despliegue
 
