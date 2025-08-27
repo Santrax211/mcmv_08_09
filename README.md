@@ -118,7 +118,7 @@ Edita las variables CSS en `app/globals.css` o modifica `tailwind.config.ts` par
 ## 📱 Capturas de Pantalla
 
 ### Modo Claro
-![Modo Claro](https://drive.google.com/file/d/1v-tFZeuwFUpjef3eCcQ-NDNz_L39Cr80/view?usp=sharing)
+![Modo Claro](https://drive.google.com/uc?export=view&id=1v-tFZeuwFUpjef3eCcQ-NDNz_L39Cr80)
 
 ### Modo Oscuro
 ![Modo Oscuro](https://via.placeholder.com/600x400/2D1B69/FFFFFF?text=Modo+Oscuro)
