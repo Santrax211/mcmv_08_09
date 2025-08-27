@@ -2,7 +2,7 @@
 
 Una hermosa galería web interactiva creada con amor para celebrar momentos especiales y cumpleaños. Presenta fotos con efecto flip 3D que revelan mensajes personalizados, filtros por fecha y soporte para modo claro/oscuro.
 
-![Galería de Momentos Especiales] (https://drive.google.com/uc?export=view&id=1v-tFZeuwFUpjef3eCcQ-NDNz_L39Cr80)
+![Galería de Momentos Especiales](https://drive.google.com/uc?export=view&id=1v-tFZeuwFUpjef3eCcQ-NDNz_L39Cr80)
 
 ## ✨ Características
 
