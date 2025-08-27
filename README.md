@@ -37,7 +37,7 @@ Una hermosa galería web interactiva creada con amor para celebrar momentos espe
 1. **Clona el repositorio**
    ```bash
    git clone https://github.com/Santrax211/mcmv_08_09.git 
-   cd mcmv_08_098
+   cd mcmv_08_09
    ```
 
 2. **Instala las dependencias**
